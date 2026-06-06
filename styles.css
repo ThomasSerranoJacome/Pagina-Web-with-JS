@@ -1,0 +1,28 @@
+:root {
+    --color-titulo: #0e225ae3;
+}
+
+* {
+    margin: 2px;
+    padding: 2px;
+    
+}
+
+body {
+    background: linear-gradient(125deg, #192486, #3375f1);
+    border: solid 2px #031942;
+}
+
+.header {
+    margin: 0px;
+    padding: 10px;
+}
+
+.titulo {
+    color: var(--color-titulo);
+    text-align: center;
+    font-size: 40px;
+}
+
+.card {
+}
