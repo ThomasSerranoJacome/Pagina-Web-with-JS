@@ -25,4 +25,17 @@ body {
 }
 
 .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding: 30px;
+    margin: 20px;
+    gap: 0px;
+}
+
+.card div {
+    background-color: #031942;
+    border: solid 2px #192486;
+    border-radius: 10px;
+    padding: 45px;
+    text-align: center;
 }
