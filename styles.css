@@ -103,3 +103,198 @@ html, body {
     color: #cec9c9;
     font-size: 18px;
 }
+
+.contenedor-frutas {
+    background-color: #031942;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px auto;
+    width: fit-content;
+    text-align: center;
+    color: white;
+}
+
+.buscador {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 3px solid gray;
+    outline: none;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+
+#imagen-principal {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+#miniaturas {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#miniaturas img {
+    width: 100px;
+    height: 80px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 3px solid transparent;
+}
+
+#miniaturas img:hover {
+    border: 3px solid #3375f1;
+}
+
+
+#contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.tarjeta {
+    background-color: #031942;
+    border-radius: 10px;
+    padding: 25px;
+    width: 220px;
+    color: white;
+    text-align: center;
+}
+
+.tarjeta .rol {
+    color: #3375f1;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+body.dark-mode {
+    background: #111;
+    color: white;
+}
+
+body.dark-mode .header {
+    background-color: #222;
+}
+
+body.dark-mode .ejercicio-panel {
+    background-color: #222;
+}
+
+
+#lista-productos {
+    list-style: none;
+    padding: 0;
+    width: 300px;
+}
+
+
+#lista-productos li.favorito-activo {
+    background-color: #f1c40f;
+    color: #031942;
+}
+
+#lista-productos li {
+    background-color: #192486;
+    color: white;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;        /* ← texto más pequeño */
+}
+
+.btn-favorito {
+    background-color: #3375f1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s;
+}
+
+.btn-favorito:hover {
+    background-color: #192486;
+}
+
+#lista-productos li.favorito-activo {
+    background-color: #f1c40f;
+    color: #031942;
+}
+
+#lista-productos li.favorito-activo .btn-favorito {
+    background-color: #031942;
+    color: #f1c40f;
+}
+
+
+#display-tiempo {
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+    margin: 20px 0;
+}
+
+#segundos-input {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 3px solid gray;
+    outline: none;
+    width: 200px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.tiempo-cumplido {
+    background-color: #e74c3c !important;
+    transition: background-color 0.5s;
+}
+
+#contenedor-busqueda {
+    position: relative;
+    width: 300px;
+    margin: 0 auto 20px auto;
+}
+
+#input-busqueda {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 3px solid gray;
+    outline: none;
+}
+
+#sugerencias {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    background-color: #031942;
+    border-radius: 0 0 8px 8px;
+    z-index: 10;
+}
+
+#sugerencias li {
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+}
+
+#sugerencias li:hover {
+    background-color: #3375f1;
+}
