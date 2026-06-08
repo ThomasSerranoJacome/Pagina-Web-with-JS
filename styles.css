@@ -79,3 +79,27 @@ html, body {
     color: white;
     font-size: 48px;
 }
+
+.ejercicio-contraseña {
+    background-color: #031942;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: fit-content;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.ejercicio-contraseña input {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px #192486;
+    margin-top: 10px;
+}
+
+.ejercicio-contraseña #mensaje {
+    margin-top: 10px;
+    color: #cec9c9;
+    font-size: 18px;
+}
