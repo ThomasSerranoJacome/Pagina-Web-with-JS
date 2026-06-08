@@ -3,25 +3,42 @@
 }
 
 * {
-    margin: 2px;
-    padding: 2px;
+    margin: 1px;
+    padding: 1px;
     
 }
 
 body {
     background: linear-gradient(125deg, #192486, #3375f1);
-    border: solid 2px #031942;
+}
+
+html, body {
+    min-height: 100vh;
 }
 
 .header {
-    margin: 0px;
+    margin: 10px auto;
     padding: 10px;
+    background-color: #193364;
+    border-radius: 10px;
+    width: fit-content;
+    
 }
 
 .titulo {
     color: var(--color-titulo);
     text-align: center;
     font-size: 40px;
+}
+
+.subtitulo {
+    color:#cec9c9
+}
+
+.descripcion {
+    color: #cec9c9;
+    text-align: center;
+    font-size: 15px;
 }
 
 .card {
@@ -38,4 +55,27 @@ body {
     border-radius: 10px;
     padding: 45px;
     text-align: center;
+}
+
+.boton {
+    background-color: #192486;
+    border: solid 2px #031942;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+
+.ejercicio-panel {
+    background-color: #031942;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 30px auto;
+    width: fit-content;
+    text-align: center;
+    color: white;
+    font-size: 48px;
 }
