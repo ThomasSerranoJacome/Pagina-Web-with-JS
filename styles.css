@@ -211,7 +211,7 @@ body.dark-mode .ejercicio-panel {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 18px;        /* ← texto más pequeño */
+    font-size: 18px;        
 }
 
 .btn-favorito {
